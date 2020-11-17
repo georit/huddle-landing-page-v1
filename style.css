@@ -231,21 +231,27 @@ footer a:visited {
   padding: 1.2rem 0 1.8rem;
 }
 
-footer a.social-media-link {
+footer .social-media-link-container {
+  display: inline-block;
   color: var(--white);
   border: 1px solid hsla(0, 0%, 100%, 0.8);
   border-radius: 50%;
   font-size: 1rem;
   padding: 0.5rem 0.7rem;
   margin-right: 0.6rem;
+  cursor: pointer;
 }
 
-footer a.social-media-link:first-child {
-  padding: 0.5rem 0.75rem;
+footer .social-media-link-container:first-child {
+  padding: 0.5rem 0.85rem;
 }
 
-footer a.social-media-link:nth-child(2) {
-  padding: 0.5rem;
+footer .social-media-link-container:nth-child(2) {
+  padding: 0.5rem 0.65rem;
+}
+
+footer .social-media-link-container a {
+  color: hsl(0, 0%, 100%);
 }
 
 .social-media,
