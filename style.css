@@ -131,7 +131,7 @@ a.try-it-free {
 
 p.heading-info {
   color: var(--very-dark-cyan);
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .hero-img {
@@ -265,7 +265,10 @@ footer .social-media-link-container a {
 
 /* *****media queries***** */
 /* ***tablets*** */
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 700px) {
+  a.get-started {
+    padding: 0.8rem 2rem;
+  }
   main {
     display: flex;
     flex-flow: row wrap;
@@ -303,7 +306,7 @@ footer .social-media-link-container a {
 
   a.get-started {
     font-size: 1rem;
-    padding: 0.8rem 3rem;
+    padding: 0.8rem 2.5rem;
     transition: all 0.3s;
   }
 
@@ -364,13 +367,17 @@ footer .social-media-link-container a {
 
   .hero-text {
     text-align: left;
-    width: 55%;
+    width: 50%;
     margin-right: 4rem;
     margin-top: -5rem;
   }
 
+  .hero-img-container {
+    margin: 1rem 0 1rem;
+    width: 100%;
+  }
+
   .hero-img {
-    margin: 2rem 0 1rem;
     width: 100%;
   }
 
