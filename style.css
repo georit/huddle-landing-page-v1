@@ -264,6 +264,7 @@ footer .social-media-link-container a {
 }
 
 /* *****media queries***** */
+/* ***tablets*** */
 @media screen and (min-width: 650px) {
   main {
     display: flex;
@@ -292,6 +293,7 @@ footer .social-media-link-container a {
   }
 }
 
+/* ***desktops*** */
 @media screen and (min-width: 950px) {
   /* *****general styles***** */
   .heading,
